@@ -1,6 +1,6 @@
 # NEURO140_FinalProject
 
-This is my final project for the NEURO 140 class, and I decided to train ShallowFBCSPNet using the Braindecode toolkit to decode EEG data from four different datasets. Each file corresponds to each dataset I used, and they contain code written to modify their respective dataset into an appropriate format, train the model according to that dataset, and output the results. 
+This is my final project for the NEURO 140 class, and I decided to train ShallowFBCSPNet using the Braindecode toolkit to decode EEG data from four different datasets. Each file starting with "dataset" corresponds to each dataset I used, and they contain code written to modify their respective dataset into an appropriate format, train the model according to that dataset, and output the results. The file called "comparison.ipynb" contains all the paired t-tests and other statistical measures I used to compare the datasets with each other. In order to do that, I needed to upload the accuracies for each dataset in a separate file, which are the files starting with "acc" (E1/E2 indicates experiment 1/2 and the last part of the file name indicates which dataset it belongs to). 
 
 Below are the citations for each dataset: 
 
